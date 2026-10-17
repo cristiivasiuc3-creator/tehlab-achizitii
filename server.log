@@ -1,0 +1,19 @@
+ * Serving Flask app 'server'
+ * Debug mode: off
+2026-10-16 20:48:36,312 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.183.37.7:5000
+2026-10-16 20:48:36,312 INFO [33mPress CTRL+C to quit[0m
+2026-10-16 20:48:40,800 INFO 127.0.0.1 - - [16/Oct/2026 20:48:40] "GET /api/me HTTP/1.1" 200 -
+2026-10-16 20:48:49,732 INFO 127.0.0.1 - - [16/Oct/2026 20:48:49] "[36mGET / HTTP/1.1[0m" 304 -
+2026-10-16 20:48:49,837 INFO 127.0.0.1 - - [16/Oct/2026 20:48:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-10-16 20:48:49,857 INFO 127.0.0.1 - - [16/Oct/2026 20:48:49] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+2026-10-16 20:48:50,020 INFO 127.0.0.1 - - [16/Oct/2026 20:48:50] "GET /api/me HTTP/1.1" 200 -
+2026-10-16 20:48:50,070 INFO 127.0.0.1 - - [16/Oct/2026 20:48:50] "GET /api/refresh/status HTTP/1.1" 200 -
+2026-10-16 20:48:50,100 INFO 127.0.0.1 - - [16/Oct/2026 20:48:50] "GET /api/stats HTTP/1.1" 200 -
+2026-10-16 20:48:50,397 INFO 127.0.0.1 - - [16/Oct/2026 20:48:50] "GET /api/stats HTTP/1.1" 200 -
+2026-10-16 20:48:50,399 INFO 127.0.0.1 - - [16/Oct/2026 20:48:50] "GET /api/tenders?category=active&deadline_to=2026-10-30&per_page=8 HTTP/1.1" 200 -
+2026-10-16 20:48:50,451 INFO 127.0.0.1 - - [16/Oct/2026 20:48:50] "GET /api/tenders?category=active&deadline_to=2026-10-30&per_page=8 HTTP/1.1" 200 -
+2026-10-16 20:48:50,460 INFO 127.0.0.1 - - [16/Oct/2026 20:48:50] "GET /api/tenders?sort=published_desc&per_page=6&category=active,upcoming HTTP/1.1" 200 -
+2026-10-16 20:48:50,512 INFO 127.0.0.1 - - [16/Oct/2026 20:48:50] "GET /api/tenders?sort=published_desc&per_page=6&category=active,upcoming HTTP/1.1" 200 -
