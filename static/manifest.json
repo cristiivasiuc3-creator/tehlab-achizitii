@@ -1,0 +1,12 @@
+{
+  "name": "Tehlab Achiziții",
+  "short_name": "Achiziții",
+  "description": "Monitorizarea achizițiilor publice relevante pentru Tehlab Service",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0b1c2c",
+  "theme_color": "#0b1c2c",
+  "icons": [
+    { "src": "logo.png", "sizes": "384x176", "type": "image/png" }
+  ]
+}
